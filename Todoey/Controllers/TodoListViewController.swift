@@ -8,6 +8,9 @@
 
 import UIKit
 import RealmSwift
+
+// CHALLENGE: Implement Swipe Cell Functionality in TodoListViewController
+
 class TodoListViewController: UITableViewController {
     
     var todoItems: Results<Item>?
